@@ -12,13 +12,13 @@ package baiTap3;
 public class Rectangle extends Shape{
  
     public Rectangle() {
-        setBrush(" Rectangle ");
-        setFrame("chiều dai 4 rộng 2");
+        setBrush(" cọ ");
+        setFrame("Gổ chiều dai 4 rộng 2");
         setPaper("giấy ô ly");
     }
     @Override
     public String draw() { 
-       return getBrush()+"\n"+getPaper()+"\n"+getFrame();
+       return "Brush: "+getBrush()+"\nPaper: "+getPaper()+"\nFrame: "+getFrame();
     }
     
 }

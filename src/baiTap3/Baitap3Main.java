@@ -20,9 +20,11 @@ public class Baitap3Main {
          
         Shape Triangle= factory.createShape(ShapeType.Triangle);
         Shape Circle= factory.createShape(ShapeType.Circle);
+        Shape ReShape= factory.createShape(ShapeType.Rectangle);
         
         System.out.println(Triangle.draw());
         System.out.println(Circle.draw());
+        System.out.println(ReShape.draw());
         
     
 }

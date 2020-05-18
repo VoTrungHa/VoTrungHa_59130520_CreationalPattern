@@ -12,14 +12,14 @@ package baiTap3;
 public class Circle extends Shape{
 
     public Circle() {
-        setBrush(" Circle ");
-        setFrame("đường kính 4");
+        setBrush(" cọ ");
+        setFrame("Gỗ đường kính 4");
         setPaper("giấy ô ly");
     }
  
     @Override
     public String draw() { 
-       return getBrush()+"\n"+getPaper()+"\n"+getFrame();
+       return "Brush: "+getBrush()+"\nPaper: "+getPaper()+"\nFrame: "+getFrame();
     }
  
 }
