@@ -11,11 +11,7 @@ package baiTap3;
  */
 public class Rectangle extends Shape{
  
-    public Rectangle() {
-        setBrush(" cọ ");
-        setFrame("Gổ chiều dai 4 rộng 2");
-        setPaper("giấy ô ly");
-    }
+   
     @Override
     public String draw() { 
        return "Brush: "+getBrush()+"\nPaper: "+getPaper()+"\nFrame: "+getFrame();

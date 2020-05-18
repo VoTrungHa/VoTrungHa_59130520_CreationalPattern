@@ -11,11 +11,7 @@ package baiTap3;
  */
 public class Circle extends Shape{
 
-    public Circle() {
-        setBrush(" cọ ");
-        setFrame("Gỗ đường kính 4");
-        setPaper("giấy ô ly");
-    }
+    
  
     @Override
     public String draw() { 

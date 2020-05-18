@@ -19,12 +19,16 @@ public class Baitap3Main {
         ShapeFactory factory= ShapeFactory.createInstance();
          
         Shape Triangle= factory.createShape(ShapeType.Triangle);
+        Triangle.setBrush("Cọ");
+        Triangle.setFrame("Gỗ các cạnh lần lượt là 3 4 10s");
+        Triangle.setPaper("A4");
         Shape Circle= factory.createShape(ShapeType.Circle);
-        Shape ReShape= factory.createShape(ShapeType.Rectangle);
+         Circle.setBrush("Cọ");
+        Circle.setFrame("Gỗ đường kính 4d");
+        Circle.setPaper("A4");
         
         System.out.println(Triangle.draw());
         System.out.println(Circle.draw());
-        System.out.println(ReShape.draw());
         
     
 }
